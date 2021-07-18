@@ -36,16 +36,16 @@ const Navbar = () => {
       </ul>
       <form className="d-flex">
         <input className="form-control me-2 text-black" type="search" placeholder="Search" aria-label="Search"></input>
-        <button className="btn btn-outline-success text-black" type="submit">Buscar</button>
+        <button className="btn btn-dark btn-outline-success text-black" type="submit">Buscar</button>
       </form>
       {user 
           ? (<button 
-                className="btn btn-outline-success" 
+                className="btn btn-dark btn-outline-success" 
                 type="Button" 
                 onClick = {logout} >Cerrar Sesion
         </button>)
           : (<button 
-                className="btn btn-outline-success" 
+                className="btn btn-dark btn-outline-success" 
                 type="Button" 
                 onClick = {login} >Iniciar Sesion
         </button>)
